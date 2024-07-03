@@ -3,7 +3,9 @@ import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 // import Product from "./Product/Product";
 // import { Alert } from "./Alert/Alert";
-import { Button } from "./Button/Button";
+// import { Button } from "./Button/Button";
+import ButtonClick from "./ButtonClick/ButtonClick";
+
 // import "./index.css";
 const App = () => {
   // const isOnline = true;
@@ -111,6 +113,10 @@ const App = () => {
           Please update your profile contact information
         </Button>
       </> */}
+      {/* _______________ mod2 lect 1 theory */}
+      {/* <ButtonClick /> */}
+
+      <ButtonClick />
       <Footer />
     </>
   );
